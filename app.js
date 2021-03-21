@@ -116,6 +116,8 @@ function checkForMatch() {
         messageBox.textContent = 'You find a match!';
         cards[optionOneId].removeEventListener('click', flipTheCard);
         cards[optionTwoId].removeEventListener('click', flipTheCard);
+        cards[optionOneId].classList.add('fade');
+        cards[optionTwoId].classList.add('fade');
         winnerCards.push(chosenCards);
     } else {
         cards[optionOneId].setAttribute('src', 'assets/cover.jpg');

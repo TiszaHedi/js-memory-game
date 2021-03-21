@@ -24,6 +24,7 @@ body {
     img {
         border-radius: 15px;
         max-width:     calc(25% - 10px);
+        transition:    all .3s ease;
     }
 
     h1 {
@@ -73,6 +74,9 @@ body {
 }
 
 
+.fade {
+    opacity: .6;
+}
 
 /* ANIMATIONS */
 
